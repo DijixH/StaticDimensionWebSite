@@ -9,7 +9,7 @@ Just a container with a static website based on Ubuntu and Nginx. You can run it
 
 Simply run command :
 
-`docker run --static -d -p 80:80 thtom/staticsite`
+`docker run --name static -d -p 80:80 thtom/staticsite`
 
 [Live demo](https://html5up.net/dimension)
 
